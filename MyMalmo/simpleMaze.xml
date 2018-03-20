@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Mission xmlns="http://ProjectMalmo.microsoft.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+  <About>
+    <Summary>Simple Map</Summary>
+  </About>
+
+  <ServerSection>
+        <ServerHandlers>
+            <FlatWorldGenerator generatorString="3;7,220*1,5*3,2;3;,biome_1" />
+            <MazeDecorator>
+                <SizeAndPosition length="20" width="20" xOrigin="0" yOrigin="45" zOrigin="410" height="180"/>
+                <GapProbability variance="0.1">0.3</GapProbability>
+                <Seed>12345</Seed>
+                <MaterialSeed>3</MaterialSeed>
+                <AllowDiagonalMovement>false</AllowDiagonalMovement>
+                <StartBlock fixedToEdge="true" type="stone" height="1"/>
+                <EndBlock fixedToEdge="true" type="leaves" height="12"/>
+                <PathBlock type="grass" height="1"/>
+                <FloorBlock type="air"/>
+                <SubgoalBlock type="grass"/>
+                <GapBlock type="dirt" height="3"/>
+            </MazeDecorator>
+            <ServerQuitFromTimeUp timeLimitMs="30000"/>
+            <ServerQuitWhenAnyAgentFinishes />
+        </ServerHandlers>
+    </ServerSection>
+
+  <AgentSection mode="Survival">
+    <Name>Cristina</Name>
+    <AgentStart>
+      <Placement x="4.5" y="46.0" z="1.5" pitch="30" yaw="0"/>
+    </AgentStart>
+    <AgentHandlers>
+      <DiscreteMovementCommands/>
+      <ObservationFromFullStats/>
+      <RewardForTouchingBlockType>
+        <Block reward="-100.0" type="lava" behaviour="onceOnly"/>
+        <Block reward="100.0" type="lapis_block" behaviour="onceOnly"/>
+      </RewardForTouchingBlockType>
+      <RewardForSendingCommand reward="-1" />
+      <AgentQuitFromTouchingBlockType>
+          <Block type="lava" />
+          <Block type="lapis_block" />
+      </AgentQuitFromTouchingBlockType>
+    </AgentHandlers>
+  </AgentSection>
+
+</Mission>
