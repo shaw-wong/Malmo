@@ -37,7 +37,7 @@ missionXML='''<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
               
               <ServerSection>
                 <ServerHandlers>
-                  <FlatWorldGenerator generatorString="3;7,220*1,5*3,2;3;,biome_1"/>
+                  <DefaultWorldGenerator/>
                   <ServerQuitFromTimeUp timeLimitMs="30000"/>
                   <ServerQuitWhenAnyAgentFinishes/>
                 </ServerHandlers>
