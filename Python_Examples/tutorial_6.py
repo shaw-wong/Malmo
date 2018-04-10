@@ -184,6 +184,7 @@ class TabQAgent:
 
         # update Q values
         if self.prev_s is not None and self.prev_a is not None:
+            print('ao')
             self.updateQTableFromTerminatingState( current_r )
             
         self.drawQ()

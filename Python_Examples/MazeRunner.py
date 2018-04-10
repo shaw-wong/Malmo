@@ -209,6 +209,9 @@ for iRepeat in xrange(num_reps):
             print "Got " + str(world_state.number_of_observations_since_last_state) + " observations since last state."
             msg = world_state.observations[-1].text
             ob = json.loads(msg)
+            print(msg)
+            # for x in world_state.observations:
+            #     print(x)
             current_yaw_delta = ob.get(u'yawDelta', 0)
             current_speed = (1-abs(current_yaw_delta))
             print "Got observation: " + str(current_yaw_delta)

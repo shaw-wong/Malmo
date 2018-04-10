@@ -24,7 +24,6 @@ import os
 import sys
 
 
-
 import MalmoPython
 import time
 
@@ -72,8 +71,16 @@ while not world_state.has_mission_begun:
 print
 print "Mission running ",
 
+agent_host.sendCommand("jump 1")
+agent_host.sendCommand("turn -0.5")
+agent_host.sendCommand("turn 0")
+agent_host.sendCommand("move 1")
+
+
+
 # Loop until mission ends:
 while world_state.is_mission_running:
+
     sys.stdout.write(".")
     time.sleep(0.1)
     world_state = agent_host.getWorldState()
