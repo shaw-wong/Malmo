@@ -320,8 +320,8 @@ class TabQAgent():
 
     def drawQ(self, curr_x=None, curr_y=None):
         scale = 40
-        world_x = 6
-        world_y = 14
+        world_x = 9
+        world_y = 7
         if self.canvas is None or self.root is None:
             self.root = tk.Tk()
             self.root.wm_title("Q-table")
@@ -364,8 +364,8 @@ class TabQAgent():
 
 
 
-agent = AStarAgent()
-# agent = TabQAgent()
+# agent = AStarAgent()
+agent = TabQAgent()
 agent_host = MalmoPython.AgentHost()
 try:
     agent_host.parse(sys.argv)
