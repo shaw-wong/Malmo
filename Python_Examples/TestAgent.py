@@ -24,7 +24,7 @@
 # Richard S. Sutton and Andrews G. Barto
 # Reinforcement Learning, An Introduction
 # MIT Press, 1998
-
+import csv
 import DQN
 import MalmoPython
 import json
@@ -201,7 +201,7 @@ max_retries = 3
 if agent_host.receivedArgument("test"):
     num_repeats = 1
 else:
-    num_repeats = 30
+    num_repeats = 1000
 cumulative_rewards = []
 
 
@@ -236,6 +236,7 @@ print "Done."
 print "Cumulative rewards for all %d runs:" % num_repeats
 print cumulative_rewards
 add = 0
-for x in cumulative_rewards:
-	add += x
-print(add/len(cumulative_rewards))
+for result in cumulative_rewards:
+    csvfile = file('analysis.csv', 'a')
+    write = csv.write(csvfile)
+    write.writerow([result])

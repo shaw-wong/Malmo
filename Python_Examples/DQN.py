@@ -1,7 +1,7 @@
 import xml.dom.minidom as MD
 
 import csv
-import pandas
+
 
 
 import torch
