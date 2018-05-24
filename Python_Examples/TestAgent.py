@@ -42,7 +42,6 @@ from torch.autograd import Variable
 import numpy as np
 import dqn_pix
 
-
 dqn = dqn_pix.DQN()
 
 class TabQAgent:
@@ -99,6 +98,9 @@ class TabQAgent:
         s = self.Pix2State(world_state)
         a = dqn.choose_action(s)
         action = a[0][0]
+        # mission_learner = a[0][0]
+        # action = self.choosesmaraction(mission_learner,world_state, agent_host)
+
 
         # self.logger.info("Taking q action: %s" % self.actions[action])
         if len(self.state_Record) > 0:
@@ -211,7 +213,8 @@ agent_host = MalmoPython.AgentHost()
 
 
 # -- set up the mission -- #
-all_file = ['./simpleMap.xml','./simpleMap_2.xml','./simpleMap_3.xml']
+# all_file = ['./simpleMap.xml','./simpleMap_2.xml','./simpleMap_3.xml']
+all_file = ['./tutorial_6.xml']
 
 
 
@@ -227,6 +230,12 @@ cumulative_rewards = []
 
 
 for i in range(num_repeats):
+    xiaoyushishabi = random.randint(0,1)
+    print(xiaoyushishabi)
+    if xiaoyushishabi == 0:
+        pass
+
+
     mission_file = random.choice(all_file)
     with open(mission_file, 'r') as f:
         print "Loading mission from %s" % mission_file

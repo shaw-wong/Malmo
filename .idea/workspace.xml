@@ -1,0 +1,524 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8b7a1455-8a0f-4953-817c-d8f6109e8851" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minecraft/.gradle/2.14/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/Minecraft/.gradle/2.14/taskArtifacts/cache.properties.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minecraft/.gradle/2.14/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/Minecraft/.gradle/2.14/taskArtifacts/fileHashes.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minecraft/.gradle/2.14/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/Minecraft/.gradle/2.14/taskArtifacts/fileSnapshots.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minecraft/.gradle/2.14/taskArtifacts/fileSnapshotsToTreeSnapshotsIndex.bin" afterPath="$PROJECT_DIR$/Minecraft/.gradle/2.14/taskArtifacts/fileSnapshotsToTreeSnapshotsIndex.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minecraft/.gradle/2.14/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/Minecraft/.gradle/2.14/taskArtifacts/taskArtifacts.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minecraft/.gradle/2.14/taskArtifacts/treeSnapshotUsage.bin" afterPath="$PROJECT_DIR$/Minecraft/.gradle/2.14/taskArtifacts/treeSnapshotUsage.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minecraft/.gradle/2.14/taskArtifacts/treeSnapshots.bin" afterPath="$PROJECT_DIR$/Minecraft/.gradle/2.14/taskArtifacts/treeSnapshots.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minecraft/build/libs/MalmoMod-0.30.0.jar" afterPath="$PROJECT_DIR$/Minecraft/build/libs/MalmoMod-0.30.0.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minecraft/.gradle/gradle.log" afterPath="$PROJECT_DIR$/Minecraft/.gradle/gradle.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/About.java" afterPath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/About.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/AbsoluteMovementCommand.java" afterPath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/AbsoluteMovementCommand.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/AbsoluteMovementCommands.java" afterPath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/AbsoluteMovementCommands.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/AgentHandlers.java" afterPath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/AgentHandlers.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/AgentQuitFromCatchingMob.java" afterPath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/AgentQuitFromCatchingMob.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/AgentQuitFromCollectingItem.java" afterPath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/AgentQuitFromCollectingItem.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/AgentQuitFromReachingCommandQuota.java" afterPath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/AgentQuitFromReachingCommandQuota.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/AgentQuitFromReachingPosition.java" afterPath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/AgentQuitFromReachingPosition.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/AgentQuitFromTimeUp.java" afterPath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/AgentQuitFromTimeUp.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/AgentQuitFromTouchingBlockType.java" afterPath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/AgentQuitFromTouchingBlockType.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/AgentSection.java" afterPath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/AgentSection.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/AgentStart.java" afterPath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/AgentStart.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/AnimationDecorator.java" afterPath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/AnimationDecorator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/Behaviour.java" afterPath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/Behaviour.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/BlockOrItemSpec.java" afterPath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/BlockOrItemSpec.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/BlockOrItemSpecWithDescription.java" afterPath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/BlockOrItemSpecWithDescription.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/BlockOrItemSpecWithReward.java" afterPath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/BlockOrItemSpecWithReward.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/BlockSpec.java" afterPath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/BlockSpec.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/BlockSpecWithDescription.java" afterPath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/BlockSpecWithDescription.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/BlockSpecWithRewardAndBehaviour.java" afterPath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/BlockSpecWithRewardAndBehaviour.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/BlockType.java" afterPath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/BlockType.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/BuildBattleDecorator.java" afterPath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/BuildBattleDecorator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/ChatCommand.java" afterPath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/ChatCommand.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/ChatCommands.java" afterPath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/ChatCommands.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/ChatMatchSpec.java" afterPath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/ChatMatchSpec.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/ClassroomDecorator.java" afterPath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/ClassroomDecorator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/ClientAgentConnection.java" afterPath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/ClientAgentConnection.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/Colour.java" afterPath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/Colour.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/CommandListModifier.java" afterPath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/CommandListModifier.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/CommandQuota.java" afterPath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/CommandQuota.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/ContinuousMovementCommand.java" afterPath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/ContinuousMovementCommand.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/ContinuousMovementCommands.java" afterPath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/ContinuousMovementCommands.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/DefaultWorldGenerator.java" afterPath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/DefaultWorldGenerator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/DiscreteMovementCommand.java" afterPath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/DiscreteMovementCommand.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/DiscreteMovementCommands.java" afterPath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/DiscreteMovementCommands.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/DrawBlock.java" afterPath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/DrawBlock.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/DrawBlockBasedObjectType.java" afterPath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/DrawBlockBasedObjectType.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/DrawCuboid.java" afterPath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/DrawCuboid.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/DrawEntity.java" afterPath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/DrawEntity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/DrawItem.java" afterPath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/DrawItem.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/DrawLine.java" afterPath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/DrawLine.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/DrawObjectType.java" afterPath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/DrawObjectType.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/DrawSphere.java" afterPath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/DrawSphere.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/DrawingDecorator.java" afterPath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/DrawingDecorator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/EntityTypes.java" afterPath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/EntityTypes.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/Facing.java" afterPath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/Facing.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/FileWorldGenerator.java" afterPath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/FileWorldGenerator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/FlatWorldGenerator.java" afterPath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/FlatWorldGenerator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/FlowerTypes.java" afterPath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/FlowerTypes.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/GameMode.java" afterPath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/GameMode.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/GridDefinition.java" afterPath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/GridDefinition.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/HalfTypes.java" afterPath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/HalfTypes.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/HorizontalObstacles.java" afterPath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/HorizontalObstacles.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/InventoryBlock.java" afterPath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/InventoryBlock.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/InventoryCommand.java" afterPath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/InventoryCommand.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/InventoryCommands.java" afterPath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/InventoryCommands.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/InventoryItem.java" afterPath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/InventoryItem.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/InventoryObjectType.java" afterPath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/InventoryObjectType.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/ItemSpec.java" afterPath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/ItemSpec.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/ItemType.java" afterPath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/ItemType.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/MazeBlock.java" afterPath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/MazeBlock.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/MazeDecorator.java" afterPath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/MazeDecorator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/MazeTerminus.java" afterPath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/MazeTerminus.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/MinecraftServerConnection.java" afterPath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/MinecraftServerConnection.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/Mission.java" afterPath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/Mission.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/MissionEndRewardCase.java" afterPath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/MissionEndRewardCase.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/MissionEnded.java" afterPath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/MissionEnded.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/MissionInit.java" afterPath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/MissionInit.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/MissionQuitCommand.java" afterPath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/MissionQuitCommand.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/MissionQuitCommands.java" afterPath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/MissionQuitCommands.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/MissionResult.java" afterPath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/MissionResult.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/MobWithDescription.java" afterPath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/MobWithDescription.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/MobWithDescriptionAndReward.java" afterPath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/MobWithDescriptionAndReward.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/MobWithReward.java" afterPath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/MobWithReward.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/ModSettings.java" afterPath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/ModSettings.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/MonsterEggTypes.java" afterPath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/MonsterEggTypes.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/MovingTargetDecorator.java" afterPath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/MovingTargetDecorator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/NamedPoint.java" afterPath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/NamedPoint.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/NonLivingEntityTypes.java" afterPath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/NonLivingEntityTypes.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/NoteTypes.java" afterPath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/NoteTypes.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/ObjectFactory.java" afterPath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/ObjectFactory.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/ObservationFromChat.java" afterPath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/ObservationFromChat.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/ObservationFromDiscreteCell.java" afterPath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/ObservationFromDiscreteCell.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/ObservationFromDistance.java" afterPath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/ObservationFromDistance.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/ObservationFromFullInventory.java" afterPath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/ObservationFromFullInventory.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/ObservationFromFullStats.java" afterPath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/ObservationFromFullStats.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/ObservationFromGrid.java" afterPath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/ObservationFromGrid.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/ObservationFromHotBar.java" afterPath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/ObservationFromHotBar.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/ObservationFromNearbyEntities.java" afterPath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/ObservationFromNearbyEntities.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/ObservationFromRay.java" afterPath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/ObservationFromRay.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/ObservationFromRecentCommands.java" afterPath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/ObservationFromRecentCommands.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/ObservationFromSubgoalPositionList.java" afterPath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/ObservationFromSubgoalPositionList.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/ObservationFromTurnScheduler.java" afterPath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/ObservationFromTurnScheduler.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/PaletteEnum.java" afterPath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/PaletteEnum.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/PointWithReward.java" afterPath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/PointWithReward.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/PointWithToleranceAndDescription.java" afterPath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/PointWithToleranceAndDescription.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/Pos.java" afterPath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/Pos.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/PosAndDirection.java" afterPath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/PosAndDirection.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/ProjectileEntityTypes.java" afterPath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/ProjectileEntityTypes.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/RangeDefinition.java" afterPath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/RangeDefinition.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/Reward.java" afterPath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/Reward.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/RewardDensityForBuildAndBreak.java" afterPath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/RewardDensityForBuildAndBreak.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/RewardDensityForTimeTaken.java" afterPath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/RewardDensityForTimeTaken.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/RewardForCatchingMob.java" afterPath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/RewardForCatchingMob.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/RewardForCollectingItem.java" afterPath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/RewardForCollectingItem.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/RewardForDamagingEntity.java" afterPath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/RewardForDamagingEntity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/RewardForDiscardingItem.java" afterPath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/RewardForDiscardingItem.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/RewardForMissionEnd.java" afterPath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/RewardForMissionEnd.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/RewardForReachingPosition.java" afterPath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/RewardForReachingPosition.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/RewardForSendingCommand.java" afterPath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/RewardForSendingCommand.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/RewardForSendingMatchingChatMessage.java" afterPath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/RewardForSendingMatchingChatMessage.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/RewardForStructureCopying.java" afterPath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/RewardForStructureCopying.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/RewardForTimeTaken.java" afterPath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/RewardForTimeTaken.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/RewardForTouchingBlockType.java" afterPath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/RewardForTouchingBlockType.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/ServerHandlers.java" afterPath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/ServerHandlers.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/ServerInitialConditions.java" afterPath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/ServerInitialConditions.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/ServerQuitFromTimeUp.java" afterPath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/ServerQuitFromTimeUp.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/ServerQuitWhenAnyAgentFinishes.java" afterPath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/ServerQuitWhenAnyAgentFinishes.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/ServerSection.java" afterPath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/ServerSection.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/ShapeTypes.java" afterPath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/ShapeTypes.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/SimpleCraftCommand.java" afterPath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/SimpleCraftCommand.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/SimpleCraftCommands.java" afterPath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/SimpleCraftCommands.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/SnakeBlock.java" afterPath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/SnakeBlock.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/SnakeDecorator.java" afterPath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/SnakeDecorator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/SpawnableTypes.java" afterPath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/SpawnableTypes.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/StoneTypes.java" afterPath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/StoneTypes.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/Time.java" afterPath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/Time.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/TurnBasedCommands.java" afterPath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/TurnBasedCommands.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/UnnamedGridDefinition.java" afterPath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/UnnamedGridDefinition.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/Variation.java" afterPath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/Variation.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/VerticalObstacles.java" afterPath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/VerticalObstacles.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/VideoProducer.java" afterPath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/VideoProducer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/WoodTypes.java" afterPath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/WoodTypes.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/package-info.java" afterPath="$PROJECT_DIR$/Minecraft/build/sources/main/java/com/microsoft/Malmo/Schemas/package-info.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minecraft/run/config/malmomodCLIENT.cfg" afterPath="$PROJECT_DIR$/Minecraft/run/config/malmomodCLIENT.cfg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minecraft/run/config/malmomodCLIENTPermanent.cfg" afterPath="$PROJECT_DIR$/Minecraft/run/config/malmomodCLIENTPermanent.cfg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minecraft/run/config/splash.properties" afterPath="$PROJECT_DIR$/Minecraft/run/config/splash.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minecraft/run/logs/fml-client-1.log" afterPath="$PROJECT_DIR$/Minecraft/run/logs/fml-client-1.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minecraft/run/logs/fml-client-2.log" afterPath="$PROJECT_DIR$/Minecraft/run/logs/fml-client-2.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minecraft/run/logs/fml-client-3.log" afterPath="$PROJECT_DIR$/Minecraft/run/logs/fml-client-3.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minecraft/run/logs/fml-client-latest.log" afterPath="$PROJECT_DIR$/Minecraft/run/logs/fml-client-latest.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minecraft/run/logs/fml-junk-earlystartup.log" afterPath="$PROJECT_DIR$/Minecraft/run/logs/fml-junk-earlystartup.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minecraft/run/logs/latest.log" afterPath="$PROJECT_DIR$/Minecraft/run/logs/latest.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Minecraft/run/usercache.json" afterPath="$PROJECT_DIR$/Minecraft/run/usercache.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Python_Examples/TestAgent.py" afterPath="$PROJECT_DIR$/Python_Examples/TestAgent.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pig_chase/q_table.txt" afterPath="$PROJECT_DIR$/pig_chase/q_table.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pig_chase/result.txt" afterPath="$PROJECT_DIR$/pig_chase/result.txt" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="TestAgent.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Python_Examples/TestAgent.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="84">
+              <caret line="216" column="24" lean-forward="false" selection-start-line="216" selection-start-column="24" selection-end-line="216" selection-end-column="24" />
+              <folding>
+                <element signature="e#1531#1543#0" expanded="true" />
+                <element signature="e#2332#2531#0" expanded="false" />
+                <element signature="e#2590#2712#0" expanded="false" />
+                <element signature="e#2759#3338#0" expanded="false" />
+                <element signature="e#4529#7118#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tutorial_7.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Python_Examples/tutorial_7.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-869">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestAgent.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pig_chase/TestAgent.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="207">
+              <caret line="286" column="0" lean-forward="false" selection-start-line="286" selection-start-column="0" selection-end-line="294" selection-end-column="29" />
+              <folding>
+                <element signature="e#1531#1543#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pig_chase_my_pig_agent.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pig_chase/pig_chase_my_pig_agent.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="202">
+              <caret line="56" column="4" lean-forward="false" selection-start-line="56" selection-start-column="4" selection-end-line="56" selection-end-column="44" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dqn_pix.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Python_Examples/dqn_pix.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#28#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pig_chase_eval_myAgent.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pig_chase/pig_chase_eval_myAgent.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="367">
+              <caret line="33" column="14" lean-forward="false" selection-start-line="29" selection-start-column="4" selection-end-line="33" selection-end-column="14" />
+              <folding>
+                <element signature="e#1214#1248#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>pass</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/pig_chase/TestAgent.py" />
+        <option value="$PROJECT_DIR$/Python_Examples/TestAgent.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="76" />
+    <option name="y" value="28" />
+    <option name="width" value="1400" />
+    <option name="height" value="913" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>Buildout</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Malmo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Malmo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Malmo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Malmo" type="462c0819:PsiDirectoryNode" />
+              <item name="pig_chase" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Malmo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Malmo" type="462c0819:PsiDirectoryNode" />
+              <item name="Python_Examples" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.TestAgent">
+    <configuration name="TestAgent (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pig_chase" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Malmo" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pig_chase/TestAgent.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="TestAgent" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python_Examples" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Malmo" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python_Examples/TestAgent.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="pig_chase_eval_myAgent" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pig_chase" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Malmo" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pig_chase/pig_chase_eval_myAgent.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <list size="3">
+      <item index="0" class="java.lang.String" itemvalue="Python.TestAgent" />
+      <item index="1" class="java.lang.String" itemvalue="Python.pig_chase_eval_myAgent" />
+      <item index="2" class="java.lang.String" itemvalue="Python.TestAgent (1)" />
+    </list>
+    <recent_temporary>
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="Python.TestAgent" />
+        <item index="1" class="java.lang.String" itemvalue="Python.TestAgent (1)" />
+        <item index="2" class="java.lang.String" itemvalue="Python.pig_chase_eval_myAgent" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8b7a1455-8a0f-4953-817c-d8f6109e8851" name="Default" comment="" />
+      <created>1527136851307</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1527136851307</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="76" y="28" width="1400" height="913" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2533137" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32885087" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Python_Examples/dqn_pix.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pig_chase/pig_chase_my_pig_agent.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="56" column="4" lean-forward="false" selection-start-line="56" selection-start-column="4" selection-end-line="56" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pig_chase/pig_chase_eval_myAgent.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="367">
+          <caret line="33" column="14" lean-forward="false" selection-start-line="29" selection-start-column="4" selection-end-line="33" selection-end-column="14" />
+          <folding>
+            <element signature="e#1214#1248#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pig_chase/TestAgent.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="286" column="0" lean-forward="false" selection-start-line="286" selection-start-column="0" selection-end-line="294" selection-end-column="29" />
+          <folding>
+            <element signature="e#1531#1543#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python_Examples/tutorial_7.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-869">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python_Examples/TestAgent.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="216" column="24" lean-forward="false" selection-start-line="216" selection-start-column="24" selection-end-line="216" selection-end-column="24" />
+          <folding>
+            <element signature="e#1531#1543#0" expanded="true" />
+            <element signature="e#2332#2531#0" expanded="false" />
+            <element signature="e#2590#2712#0" expanded="false" />
+            <element signature="e#2759#3338#0" expanded="false" />
+            <element signature="e#4529#7118#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
