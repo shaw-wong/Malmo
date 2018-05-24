@@ -104,9 +104,9 @@ class TabQAgent:
         # screen = self.Pix2State(world_state)
         s = self.Pix2State(world_state)
         a = dqn.choose_action(s)
-        action = a[0][0]
-        # mission_learner = a[0][0]
-        # action = self.choosesmaraction(mission_learner,world_state, agent_host)
+        # action = a[0][0]
+        mission_learner = a[0][0]
+        action = self.choosesmaraction(mission_learner,world_state, agent_host)
 
 
         # self.logger.info("Taking q action: %s" % self.actions[action])
@@ -114,6 +114,7 @@ class TabQAgent:
             Last_State = self.state_Record[-1]
             Last_Action = self.action_Record[-1]
             dqn.record_transition(Last_State,Last_Action,torch.FloatTensor([current_r]),s)
+
 
         if dqn.memoryCounter > dqn.memory_size:
             dqn.learn()
@@ -127,6 +128,14 @@ class TabQAgent:
         except RuntimeError as e:
             self.logger.error("Failed to send command: %s" % e)
 
+
+    def choosesmaraction(self,mission_learner,world_state, agent_host):
+        if mission_learner == 0:
+            action = self.hitpig()
+        elif mission_learner == 1:
+            action = self.feijie()
+
+        return action
 
 
     def run(self, agent_host, dqn):
@@ -236,15 +245,15 @@ cumulative_rewards = []
 
 
 for i in range(num_repeats):
-    xiaoyushishabi = random.randint(0,1)
-    print(xiaoyushishabi)
-    if xiaoyushishabi == 0:
-        # clients = [('0.0.0.0', 10000), ('0.0.0.0', 10001)]
-        # agent = PigAgent(ENV_AGENT_NAMES[1])
-        # eval = PigChaseEvaluator(clients, agent, agent, PigChaseSymbolicStateBuilder())
-        # eval.run()
-    else:
-        pass
+    # xiaoyushishabi = random.randint(0,1)
+    # print(xiaoyushishabi)
+    # if xiaoyushishabi == 0:
+    #     # clients = [('0.0.0.0', 10000), ('0.0.0.0', 10001)]
+    #     # agent = PigAgent(ENV_AGENT_NAMES[1])
+    #     # eval = PigChaseEvaluator(clients, agent, agent, PigChaseSymbolicStateBuilder())
+    #     # eval.run()
+    # else:
+    #     pass
     # else:
     mission_file = random.choice(all_file)
     with open(mission_file, 'r') as f:
