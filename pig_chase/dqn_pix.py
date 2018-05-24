@@ -1,7 +1,7 @@
 import xml.dom.minidom as MD
 import math
 import csv
-import pandas
+# import pandas
 import random
 import torch
 import torch.nn as nn
