@@ -42,14 +42,7 @@ import torch
 from torch.autograd import Variable
 import numpy as np
 import dqn_pix
-from environment import PigChaseSymbolicStateBuilder
 dqn = dqn_pix.DQN()
-from common import ENV_AGENT_NAMES
-from evaluation import PigChaseEvaluator
-from environment import PigChaseTopDownStateBuilder, PigChaseSymbolicStateBuilder
-from malmopy.agent import RandomAgent
-from agent import FocusedAgent
-from my_pig_agent import PigAgent
 
 class TabQAgent:
 
@@ -62,7 +55,7 @@ class TabQAgent:
         self.logger.handlers = []
         self.logger.addHandler(logging.StreamHandler(sys.stdout))
 
-        self.actions = ["movenorth 1", "movesouth 1", "movewest 1", "moveeast 1"]
+        self.actions = ["movenorth 1", "movesouth 1", "movewest 1", "moveeast 1", "turn -1", "turn 1", "move 1", "attack 1"]
 
     def Translate_State(self,obs):
         s = []
