@@ -24,7 +24,7 @@ EPSILON_DECAY = 20000
 
 TARGET_REPLACE_ITER = 100
 
-ACTIONS_DIMENTION = 4
+ACTIONS_DIMENTION = 2
 
 Transition = namedtuple('Transition',
                         ('state', 'action', 'reward' ,'next_state'))
