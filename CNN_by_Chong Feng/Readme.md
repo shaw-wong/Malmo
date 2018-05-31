@@ -32,14 +32,14 @@ Directory:
 	
 		augmentation:
 
-			original: The original images used for data augmentation.
-			output  : The output images by data augmentation.
-			split   : The splited training and validation images and their labels. 
-		                  Validation is called test here. 
+			original    : The original images used for data augmentation.
+			output      : The output images by data augmentation.
+			split       : The splited training and validation images and their labels. 
+		                      Validation is called test here. 
 
 		augmentation_example: Some data augmentation examples used for report.
 
-		layers              : Some feature maps after each sublayer of the first CNN layer used for report.
+		layers              : Some feature maps for report after each sublayer of the first CNN layer.
 
 		original            : The original iamges captured from the game and their labels used for test.
 
