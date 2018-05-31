@@ -18,8 +18,8 @@ Directory:
 
 Application:
 
-	application.py: A simple application using the CNN classifier to do the mission recognition. Change the variable    
-	                MISSION to change the game map.
+	application.py: A simple application using the CNN classifier to do the mission recognition. 
+	                Change the variable MISSION to change the game map.
 
 	ckpts: The saved CNN classifier.
 
@@ -30,8 +30,9 @@ data:
 	augmentation:
 
 		original: The original images used for data augmentation.
-		output: The output images by data augmentation.
-		split: The splited training and validation images and their labels. Validation is called test here. 
+		output  : The output images by data augmentation.
+		split   : The splited training and validation images and their labels. 
+		          Validation is called test here. 
 
 	augmentation_example: Some data augmentation examples used for report.
 
@@ -39,5 +40,5 @@ data:
 
 	original: The original iamges captured from the game and their labels used for test.
 
-	preprocessed: Preprocessed images of the original 200 images which are not used in the code but mentioned in the 
-	              report.
+	preprocessed: Preprocessed images of the original 200 images which are not used 
+	              in the code but mentioned in the report.
