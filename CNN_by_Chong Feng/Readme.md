@@ -4,7 +4,7 @@ python code:
 
 get_images.py: Capture images from the game. Change the variable MISSION to change the game map.
 
-display_layers.py: Output the feature maps after each sublayer of the first CNN layer. Opening sublayers used and closing sublayers not used manually are required.
+display_layers.py: Output the feature maps after each sublayer of the first CNN layer. Opening sublayers used and closing                        sublayers not used manually are required.
 
 augmentation.py: Do the data augmentation. Uncomment one operation each time and run it for several times.
 
