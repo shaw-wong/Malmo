@@ -1,5 +1,9 @@
 CNN Mission Recognition by Chong Feng
 
+Tensorflow is required to run the code. 
+The package of Augmentor is required for the data augmentation oprations (pip install augmentor).
+The code can be run directly.
+
 python code:
 
 	get_images.py    : Capture images from the game. Change the variable MISSION to change the game map.
