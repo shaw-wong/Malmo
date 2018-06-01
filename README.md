@@ -35,7 +35,7 @@ The two agents defined in the lower layer can be independently executed as well.
 
 ### Run the Pig Chase
 
-* Start two instances of the Malmo Client on ports `10000` and `10001'
+* Start two instances of the Malmo Client on ports `10000` and `10001`
 * `python pig_chase_eval_myAgent.py`
 
 ## Author
