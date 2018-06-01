@@ -22,13 +22,18 @@ The project provides a prototype of a general agent which can efficiently handle
 * Start two instances of the Malmo Client on ports `10000` and `10001`
 * `python pig_chase_eval_myAgent.py`
 
-##Author
+## Author
+
 Haoran Sun 839693
 haorans@student.unimelb.edu
+
 Fei Teng 809370
 fteng1@student.unimelb.edu.au
+
 Xiaoyu Wang 799778
 xiaoyuw6@student.unimelb.edu.au
+
 Chong Feng 852833
 cfeng2@student.unimelb.edu.au
+
 
