@@ -110,6 +110,7 @@ class TabQAgent:
 
         # self.logger.info("Taking q action: %s" % self.actions[action])
         if len(self.state_Record) > 0:
+            current_r = current_r + reward
             Last_State = self.state_Record[-1]
             Last_Action = self.action_Record[-1]
             dqn.record_transition(Last_State,Last_Action,torch.FloatTensor([current_r]),s) 
@@ -175,7 +176,11 @@ class TabQAgent:
 
         obs_text = world_state.observations[-1].text
         obs = json.loads(obs_text)
-        current_s = "%d:%d" % (int(obs[u'XPos']), int(obs[u'ZPos']))
+        if obs.has_key(u'XPos'):
+            you_yaw = obs[u'Yaw']
+            you_direction = ((((you_yaw - 45) % 360) // 90) - 1) % 4
+            current_s = "%d:%d:%d" % (int(obs[u'XPos']), int(obs[u'ZPos']), you_direction)
+        else: current_s = (0,0,0)
 
         if not self.q_table.has_key(current_s):
             self.q_table[current_s] = ([0] * len(self.actions))
@@ -223,11 +228,15 @@ class TabQAgent:
         action = random.randint(0,7)
         difference = 0
         speed = 0
+        current_yaw = 0
         if world_state.number_of_observations_since_last_state > 0:
             msg = world_state.observations[-1].text
             ob = json.loads(msg)
+            self_x = 0
+            self_z = 0
             # Use the line-of-sight observation to determine when to hit and when not to hit:
             if u'LineOfSight' in ob:
+                current_r = current_r + 6
                 los = ob[u'LineOfSight']
                 type = los["type"]
                 if type == "Sheep":
@@ -385,7 +394,7 @@ max_retries = 3
 if agent_host.receivedArgument("test"):
     num_repeats = 1
 else:
-    num_repeats = 10000
+    num_repeats = 1934
 cumulative_rewards = []
 
 
@@ -419,6 +428,11 @@ for i in range(num_repeats):
     print 'Cumulative reward: %d' % cumulative_reward
     if cumulative_reward<0:resultreward = -100
     else:resultreward = 100
+    torch.save(dqn.evalueNet, 'Netmodel.pkl')
+    torch.save(dqn.targetNet, 'Target.pkl')
+    csvfile = file('analysis.csv', 'a')
+    writer = csv.writer(csvfile)
+    writer.writerow([cumulative_reward])
     cumulative_rewards += [cumulative_reward]
 
 
@@ -429,15 +443,15 @@ print "Done."
 
 print "Cumulative rewards for all %d runs:" % num_repeats
 
-torch.save(dqn.evalueNet,'Netmodel.pkl')
-torch.save(dqn.targetNet,'Target.pkl')
+
 
 miaowacao = 1
 point = 0
 for result in cumulative_rewards:
-    csvfile = file('analysis.csv', 'a')
-    writer = csv.writer(csvfile)
-    writer.writerow([result])
+    print(result)
+
+
+
 
 
 

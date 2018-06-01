@@ -33,7 +33,6 @@ import logging
 import os
 import random
 import sys
-
 import time
 import Tkinter as tk
 from PIL import Image
@@ -42,6 +41,7 @@ import torch
 from torch.autograd import Variable
 import numpy as np
 import dqn_pix
+
 dqn = dqn_pix.DQN()
 
 class TabQAgent:
@@ -55,7 +55,7 @@ class TabQAgent:
         self.logger.handlers = []
         self.logger.addHandler(logging.StreamHandler(sys.stdout))
 
-        self.actions = ["movenorth 1", "movesouth 1", "movewest 1", "moveeast 1", "turn -1", "turn 1", "move 1", "attack 1"]
+        self.actions = ["move 1", "turn 1", "attack 1", "move 0"]
 
     def Translate_State(self,obs):
         s = []
@@ -97,23 +97,21 @@ class TabQAgent:
         # screen = self.Pix2State(world_state)
         s = self.Pix2State(world_state)
         a = dqn.choose_action(s)
-        # action = a[0][0]
-        mission_learner = a[0][0]
-        action = self.choosesmaraction(mission_learner,world_state, agent_host)
+        action = a[0][0]
 
 
-        # self.logger.info("Taking q action: %s" % self.actions[action])
         if len(self.state_Record) > 0:
             Last_State = self.state_Record[-1]
             Last_Action = self.action_Record[-1]
             dqn.record_transition(Last_State,Last_Action,torch.FloatTensor([current_r]),s)
 
-
         if dqn.memoryCounter > dqn.memory_size:
             dqn.learn()
         # try to send the selected action, only update prev_s if this succeeds
         try:
+
             agent_host.sendCommand(self.actions[action])
+
             self.state_Record.append(s)
             self.action_Record.append(a)
 
@@ -121,19 +119,8 @@ class TabQAgent:
         except RuntimeError as e:
             self.logger.error("Failed to send command: %s" % e)
 
-
-    def choosesmaraction(self,mission_learner,world_state, agent_host):
-        if mission_learner == 0:
-            action = self.hitpig()
-        elif mission_learner == 1:
-            action = self.feijie()
-
-        return action
-
-
     def run(self, agent_host, dqn):
         """run the agent on the world"""
-
 
         total_reward = 0
 
@@ -164,6 +151,7 @@ class TabQAgent:
                             world_state.observations[-1].text == "{}":
                         total_reward += current_r
 
+
                         self.act(world_state, agent_host, current_r, dqn)
                         break
                     if not world_state.is_mission_running:
@@ -185,12 +173,14 @@ class TabQAgent:
                     world_state = agent_host.getWorldState()
 
 
+
                     for reward in world_state.rewards:
 
                         current_r += reward.getValue()
                     if world_state.is_mission_running and len(world_state.observations) > 0 and len(world_state.video_frames) > 0 and not \
                             world_state.observations[-1].text == "{}":
                         total_reward += current_r
+
 
                         self.act(world_state, agent_host, current_r, dqn)
                         break
@@ -222,7 +212,8 @@ agent_host = MalmoPython.AgentHost()
 
 
 # -- set up the mission -- #
-all_file = ['./simpleMap.xml','./simpleMap_2.xml','./simpleMap_3.xml']
+# all_file = ['./simpleMap.xml','./simpleMap_2.xml','./simpleMap_3.xml']
+all_file = ['./chasePig.xml']
 
 
 
@@ -238,23 +229,19 @@ cumulative_rewards = []
 
 
 for i in range(num_repeats):
-    # xiaoyushishabi = random.randint(0,1)
-    # print(xiaoyushishabi)
-    # if xiaoyushishabi == 0:
-    #     # clients = [('0.0.0.0', 10000), ('0.0.0.0', 10001)]
-    #     # agent = PigAgent(ENV_AGENT_NAMES[1])
-    #     # eval = PigChaseEvaluator(clients, agent, agent, PigChaseSymbolicStateBuilder())
-    #     # eval.run()
-    # else:
-    #     pass
-    # else:
+    xiaoyushishabi = random.randint(0,1)
+
+    if xiaoyushishabi == 0:
+        pass
+
+
     mission_file = random.choice(all_file)
     with open(mission_file, 'r') as f:
         print "Loading mission from %s" % mission_file
         mission_xml = f.read()
         my_mission = MalmoPython.MissionSpec(mission_xml, True)
     my_mission.requestVideo(600, 400)
-    #
+
 
     print 'Repeat %d of %d' % (i + 1, num_repeats)
 

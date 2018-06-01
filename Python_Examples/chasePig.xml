@@ -14,7 +14,7 @@
 <Mission xmlns="http://ProjectMalmo.microsoft.com">
 
     <About>
-        <Summary>Hit the Sheep</Summary>
+        <Summary>Chase the Pig</Summary>
     </About>
 
     <ModSettings>
@@ -36,23 +36,22 @@
             <DrawingDecorator>
                 <!-- Tricks to clean the map before drawing (avoid entity duplication on the map) -->
                 <!-- coordinates for cuboid are inclusive -->
-                <DrawCuboid x1="-10" y1="4" z1="-10" x2="10" y2="45" z2="10" type="air"/>
+                <DrawCuboid x1="-10" y1="4" z1="-10" x2="30" y2="45" z2="30" type="air"/>
 
                 <!-- Area Limits -->
-                <DrawLine x1="1" y1="3" z1="0" x2="7" y2="3" z2="0" type="sand"/>
-                <DrawLine x1="1" y1="4" z1="0" x2="7" y2="4" z2="0" type="fence"/>
+                <DrawLine x1="1" y1="3" z1="0" x2="13" y2="3" z2="0" type="sand"/>
+                <DrawLine x1="1" y1="4" z1="0" x2="13" y2="4" z2="0" type="fence"/>
 
-                <DrawLine x1="1" y1="3" z1="6" x2="7" y2="3" z2="6" type="sand"/>
-                <DrawLine x1="1" y1="4" z1="6" x2="7" y2="4" z2="6" type="fence"/>
+                <DrawLine x1="1" y1="3" z1="13" x2="13" y2="3" z2="13" type="sand"/>
+                <DrawLine x1="1" y1="4" z1="13" x2="13" y2="4" z2="13" type="fence"/>
 
-                <DrawLine x1="1" y1="3" z1="0" x2="1" y2="3" z2="6" type="sand"/>
-                <DrawLine x1="1" y1="4" z1="0" x2="1" y2="4" z2="6" type="fence"/>
+                <DrawLine x1="1" y1="3" z1="0" x2="1" y2="3" z2="13" type="sand"/>
+                <DrawLine x1="1" y1="4" z1="0" x2="1" y2="4" z2="13" type="fence"/>
 
-                <DrawLine x1="7" y1="3" z1="0" x2="7" y2="3" z2="6" type="sand"/>
-                <DrawLine x1="7" y1="4" z1="0" x2="7" y2="4" z2="6" type="fence"/>
+                <DrawLine x1="13" y1="3" z1="0" x2="13" y2="3" z2="13" type="sand"/>
+                <DrawLine x1="13" y1="4" z1="0" x2="13" y2="4" z2="13" type="fence"/>
 
-                <!--<DrawEntity x="4.5" y="4" z="3.5" type="Pig"/>-->
-                <DrawEntity x="4.5" y="4" z="4.5" type="Sheep"/>
+                <DrawEntity x="4.5" y="4" z="3.5" type="Sheep"/>
 
             </DrawingDecorator>
             <ServerQuitFromTimeUp timeLimitMs="20000"/>
@@ -83,7 +82,6 @@
             <ObservationFromFullStats/>
             <RewardForDamagingEntity>
                     <Mob type="Sheep" reward="30"/>
-                    <!--<Mob type="Pig" reward="-30"/>-->
             </RewardForDamagingEntity>
             <!--<TurnBasedCommands requestedPosition="1">-->
                 <!--<DiscreteMovementCommands>-->

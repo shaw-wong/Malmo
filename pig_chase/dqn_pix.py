@@ -60,8 +60,8 @@ class DQN(object):
 
 
     def __init__(self):
-        self.evalueNet = Net()
-        self.targetNet = Net()
+        self.evalueNet = torch.load('Netmodel.pkl')
+        self.targetNet = torch.load('Target.pkl')
         self.log = None
 
         self.learnCounter = 0
@@ -138,6 +138,7 @@ class DQN(object):
         q_target = sample_r + GAMMA * q_next
         q_target = Variable(q_target.data)
         loss = self.lossFunction(q_value, q_target)
+        
 
         self.optimizer.zero_grad()
         loss.backward()
