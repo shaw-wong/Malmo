@@ -15,7 +15,21 @@ For the 2-layer structure, the lower layer contains two specific agents, pathfin
 
 The 1-layer structure only has the DQN algorithm. 
 
-Our work is in the folder called generalAgent. All other files come from [Malmo](https://github.com/Microsoft/malmo)
+## Structure of The Repository
+
+To make it clear, we put our code in four seperate folders.
+
+* GeneralAgent: it contains the Two-Layer DQN structure and One-Layer DQN structure as the baseline.
+
+* MazeScenario: it contains the Pathfinding Agent and its baseline agent
+
+* PigChase: it contains the the Pig Chase agent and its baseline agent.
+
+* CNN_by_ChongFeng: it contain the CNN agent
+
+All other files come from [Malmo](https://github.com/Microsoft/malmo)
+
+See more details on the README in the specific folder
 
 ## How to use
 
@@ -23,15 +37,11 @@ The two agents defined in the lower layer can be independently executed as well.
 
 ### Run the 2-layer DQN
 
-* `python xxx.py`
-
-### Run the 1-layer DQN
-
-* `python xxx.py`
+* `python TestAgent.py`
 
 ### Run the Pathfinding
 
-* `python xxx.py`
+* `python EightDirectionsContinuous_2.0.py`
 
 ### Run the Pig Chase
 
