@@ -421,6 +421,11 @@ for i in range(num_repeats):
     print 'Cumulative reward: %d' % cumulative_reward
     if cumulative_reward<0:resultreward = -100
     else:resultreward = 100
+    csvfile = file('analysis.csv', 'a')
+    writer = csv.writer(csvfile)
+    writer.writerow([cumulative_reward])
+    torch.save(dqn.evalueNet, 'Netmodel.pkl')
+    torch.save(dqn.targetNet, 'Target.pkl')
     cumulative_rewards += [cumulative_reward]
 
 
@@ -431,15 +436,11 @@ print "Done."
 
 print "Cumulative rewards for all %d runs:" % num_repeats
 
-torch.save(dqn.evalueNet,'Netmodel.pkl')
-torch.save(dqn.targetNet,'Target.pkl')
 
 miaowacao = 1
 point = 0
 for result in cumulative_rewards:
-    csvfile = file('analysis.csv', 'a')
-    writer = csv.writer(csvfile)
-    writer.writerow([result])
+    print(result)
 
 
 
