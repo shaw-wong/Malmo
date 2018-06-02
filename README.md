@@ -25,7 +25,7 @@ To make it clear, we put our code in four seperate folders.
 
 * PigChase: it contains the the Pig Chase agent and its baseline agent.
 
-* CNN_by_ChongFeng: it contain the CNN agent
+* CNN_by_ChongFeng: it contains the CNN agent
 
 All other files come from [Malmo](https://github.com/Microsoft/malmo)
 
@@ -37,15 +37,18 @@ The two agents defined in the lower layer can be independently executed as well.
 
 ### Run the 2-layer DQN
 
+* `cd Malmo/GeneralAgent`
 * `python TestAgent.py`
 
 ### Run the Pathfinding
 
+* `cd Malmo/MazeScenario`
 * `python EightDirectionsContinuous_2.0.py`
 
 ### Run the Pig Chase
 
 * Start two instances of the Malmo Client on ports `10000` and `10001`
+* `cd Malmo/PigChase`
 * `python pig_chase_eval_myAgent.py`
 
 ## Author
